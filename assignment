@@ -1,0 +1,36 @@
+#arthematic operators
+x= -10
+y = +(x)
+print(y) #-10
+
+a = int(input("first operand"))
+b =int(input("second operand"))
+c= a+b
+print(c)
+
+c= a-b
+print(c)
+
+c= a*b
+print(c)
+
+c=a/b
+print(c)
+
+c=a%b
+print(c) 
+
+c=a**b
+print(c)
+
+age =int(input("your age"))
+if age<16:
+    print("you are a child")
+else:
+    print("you are a adult")  
+
+temp = int(input("what is the temperture:"))
+if not(temp <= 38 and temp >= 22):
+    print("temperture is good for playing")
+elif temp > 0 or temp < 10:
+    print("temperture is not good for playing")    
