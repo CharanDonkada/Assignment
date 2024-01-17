@@ -1,0 +1,82 @@
+#compound operator
+a = 25
+b = 5
+a +=5
+a-=5
+a*=5
+a/=5
+#a%=5
+print(a)
+
+#membership opeator can check the exsistence of a element in any sequence
+y='charan'
+x='charanteja'
+print(y in x)
+print(x not in y)
+
+l= [1,2,3,4,5,6]
+print(8 in l)
+print(1 in l)
+
+d ={'charan': 'MT02601', 'yaswanth':'MT02603', 'mahesh':'MT02608'}
+print('mahesh' not in d)
+print('naveen' not in d)
+print('MT02306' in d)
+
+#bitwise operator
+p=8
+q=12
+r=p&q #4 and both are 1 then it give 1
+r=p|q #5 or any bit have 1 it gives 1
+r=p^q #1 xor both bits are same it gives 0
+r=~q  #~ 2's complement 
+print(p<<2) #p*2^n
+print(r) #-(q+1)
+print(q>>2) #q/2^n quotient
+
+#ternary operators
+score = 21
+print("pass") if score>21 else print("fail")
+
+x=7
+print("even") if x%2==0 else print("odd")
+
+name = "charan"
+print("accept") if 'a' in name else print("denied")
+
+#identity operators memory location is same
+a=[1,2,3,4]
+b=a
+print(a is b) 
+
+l1=[1,2,3]
+l2=[1,2,3]
+print(l1 is l2)
+
+a=7
+b=8
+print(a is not b)
+
+h= "hello"
+w= "world"
+print(h is  w)
+
+
+#input-output
+name = input("Enter your name: ")
+print("Hello, " + name)
+print(type(name))
+
+
+num = int(input("Enter a number: "))
+add = num + 1
+print(add)
+
+print("GFG", end = "@")
+
+print('G', 'F', 'G', sep="#")
+
+
+name = "charan"
+print(f'Hello {name}! How are you?')
+
