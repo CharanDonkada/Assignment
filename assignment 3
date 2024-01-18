@@ -1,0 +1,41 @@
+name = input("Enter beer name to check availability: ")
+
+low_name = name.lower()
+
+if low_name == "kingfisher":
+    print(name, "is available")
+elif low_name == "bira":
+    print(name, "is available")
+elif low_name == "budweiser":
+    print(name, "is available")
+elif low_name == "boom":
+    print(name, "is available")
+else:
+    print(name, "is not available. Please try again tomorrow.")
+
+
+
+num = int(input("Enter a number: "))
+if 1 <= num <= 100:
+    print(f"{num} is in between 1 and 100.")
+else:
+    print(f"{num} is not in between 1 and 100.")
+
+
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))
+max_number = max(num1, num2, num3)
+print(max_number)
+
+
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+
+if num1 > num2:
+    print("The biggest number is:", num1)
+elif num2 > num1:
+    print("The biggest number is:", num2)
+else:
+    print("Both numbers are equal.")
