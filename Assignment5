@@ -1,0 +1,37 @@
+n="this is charan"
+print(n.find("is"))
+print(n.index("is"))
+print(n.rfind("is"))
+print(n.rindex("is"))
+#print(n.index("are"))
+print(n.rfind("are"))
+#print(n.rindex("are"))
+
+#substring in string
+def ss(main_s,sub_s):
+    index = main_s.find(sub_s)
+    if index !=-1:
+        print(f"sub_s '{sub_s}' found at index {index}")
+    else:
+        print(f"sub_s '{sub_s}' not found ")
+
+main_s ="charan is learning python"     
+sub_s ="python"   
+ss(main_s,sub_s)
+            
+
+#count
+n="this is charan"
+print(n.count("a",4,17))            
+
+#replace()
+print(n.replace("a",'b'))
+
+#split
+print(n.split())
+print(n.split('a'))
+
+print(n.upper())
+print(n.lower())
+print(n.title())
+print(n.capitalize())
