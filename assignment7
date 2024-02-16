@@ -1,0 +1,21 @@
+s1 = {10,20,30,40,50}
+s2 = {10,20,30,40,50,60,70,80,90}
+print(s1.union(s2))
+print(s1|s2)
+print(s1.intersection(s2))
+
+student_data = {}
+
+# Take user input for the number of entries
+num_entries = int(input("Enter the number of entries: "))
+
+# Loop through the number of entries
+for i in range(num_entries):
+    # Take input for student name and percentage
+    name = input("Enter student name: ")
+    percentage = float(input("Enter percentage: "))
+    
+    # Add the data to the dictionary
+    student_data[name] = percentage
+
+print("Student data:", student_data)
