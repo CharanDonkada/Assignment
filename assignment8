@@ -1,0 +1,47 @@
+def factorial(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        return n*factorial(n-1)
+result = factorial(5)
+print(result)   
+
+
+num=int(input("Enter number to check odd or even: "))
+def find_Evenodd(num):
+    
+    if(num%2==0):
+        print(num," Is an even")
+    else:
+        print(num," is an odd")
+
+find_Evenodd(num);
+
+
+def add(a,b):
+
+    print("Addition of two numbers", a+b)
+
+def sub(a,b):
+
+    print("Subtraction of Two numbers",a-b)
+
+def mul(a,b):
+
+    print("Multiplication of two numbers", a*b)
+
+def div(a,b):
+
+    print("Division of two numbers",a/b)
+
+x=int(input("Enter first numbers: "))
+
+y=int(input("Enter Second numbers: "))
+
+add(x,y)
+
+sub(x,y)
+
+mul(x,y)
+
+div(x,y)
